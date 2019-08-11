@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  nand00  -multisrs  C:\Users\martin\Desktop\Arqui3cm2\nand00\nand00\synwork\nand00_nand00_comp.srs  -osyn  C:\Users\martin\Desktop\Arqui3cm2\nand00\nand00\synwork\nand00_nand00_mult.srs  -log  C:\Users\martin\Desktop\Arqui3cm2\nand00\nand00\synlog\nand00_nand00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top nand00 -multisrs ..\synwork\nand00_nand00_comp.srs -osyn ..\synwork\nand00_nand00_mult.srs -log ..\synlog\nand00_nand00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\nand00_nand00_comp.srs|io:i|time:1565298855|size:1539|exec:0|csum:3EB08C65757685B9F78A9C245421D72F
+file:..\synwork\nand00_nand00_mult.srs|io:o|time:1565298857|size:1280|exec:0|csum:
+file:..\synlog\nand00_nand00_multi_srs_gen.srr|io:o|time:1565298857|size:1037|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

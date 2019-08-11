@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\or00\or00.vhdl":8:7:8:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+Running optimization stage 1 on or00 .......
+Running optimization stage 2 on or00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\martin\Desktop\Arqui3cm2\or00\or00\synwork\layer0.rt.csv
+

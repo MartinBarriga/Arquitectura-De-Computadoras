@@ -1,0 +1,10 @@
+#Start recording tcl command: 8/9/2019 21:22:26
+#Project Location: C:/Users/martin/Desktop/Arqui3cm2/or00; Project name: or00
+prj_project new -name "or00" -impl "or00" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/martin/Desktop/Arqui3cm2/or00/or00.vhdl"
+prj_run Export -impl or00 -task Jedecgen
+prj_run Synthesis -impl or00
+prj_run Export -impl or00 -task Jedecgen
+prj_run Export -impl or00 -task Jedecgen
+#Stop recording: 8/9/2019 22:58:03

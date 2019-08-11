@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\xor00\xor00.vhdl":8:7:8:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Running optimization stage 1 on xor00 .......
+Running optimization stage 2 on xor00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\martin\Desktop\Arqui3cm2\xor00\xor00\synwork\layer0.rt.csv
+
