@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="nor00" device="LCMXO2-7000HE-4TG144C" default_implementation="nor00">
+    <Options/>
+    <Implementation title="nor00" dir="nor00" description="nor00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="nor00"/>
+        <Source name="nor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="nor00"/>
+        </Source>
+        <Source name="nor00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="nor001.sty"/>
+</BaliProject>

@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\sony\Desktop\Trabajos\projectArqui3cm2\xnor00\xnor00.vhdl":8:7:8:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Running optimization stage 1 on xnor00 .......
+Running optimization stage 2 on xnor00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\sony\Desktop\Trabajos\projectArqui3cm2\xnor00\xnor00\synwork\layer0.rt.csv
+

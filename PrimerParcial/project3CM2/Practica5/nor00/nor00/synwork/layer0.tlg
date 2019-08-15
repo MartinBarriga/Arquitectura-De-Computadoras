@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\sony\Desktop\Trabajos\projectArqui3cm2\nor00\nor00.vhdl":8:7:8:11|Synthesizing work.nor00.nor0.
+Post processing for work.nor00.nor0
+Running optimization stage 1 on nor00 .......
+Running optimization stage 2 on nor00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\sony\Desktop\Trabajos\projectArqui3cm2\nor00\nor00\synwork\layer0.rt.csv
+

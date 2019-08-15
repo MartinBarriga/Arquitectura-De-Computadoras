@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  mux00  -multisrs  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\mux00\mux00\synwork\mux00_mux00_comp.srs  -osyn  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\mux00\mux00\synwork\mux00_mux00_mult.srs  -log  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\mux00\mux00\synlog\mux00_mux00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top mux00 -multisrs ..\synwork\mux00_mux00_comp.srs -osyn ..\synwork\mux00_mux00_mult.srs -log ..\synlog\mux00_mux00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\mux00_mux00_comp.srs|io:i|time:1565704260|size:2417|exec:0|csum:8974DD1A80FB135DF242D00CB423F3D6
+file:..\synwork\mux00_mux00_mult.srs|io:o|time:1565704262|size:2105|exec:0|csum:
+file:..\synlog\mux00_mux00_multi_srs_gen.srr|io:o|time:1565704262|size:1060|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

@@ -1,0 +1,19 @@
+#Start recording tcl command: 8/12/2019 11:55:50
+#Project Location: C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/Practica5/or00; Project name: or00
+prj_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/Practica5/or00/or00.ldf"
+pgr_project close
+pgr_project save "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/Practica5/or00/or00/or00.xcf"
+prj_src add -exclude "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/Practica5/or00/or00/or00.xcf"
+prj_src enable "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/Practica5/or00/or00/or00.xcf"
+pgr_program set -cable 
+pgr_program set -cable 
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/Practica5/or00/or00/or00.xcf"
+prj_project save
+prj_project close
+#Stop recording: 8/12/2019 11:59:14

@@ -1,0 +1,12 @@
+#Start recording tcl command: 8/11/2019 19:22:29
+#Project Location: C:/Users/sony/Desktop/Trabajos/projectArqui3cm2/xnor00; Project name: xnor00
+prj_project new -name "xnor00" -impl "xnor00" -dev LCMXO2-7000HE-4TG144I -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/sony/Desktop/Trabajos/projectArqui3cm2/xnor00/xnor00.vhdl"
+prj_run Export -impl xnor00 -task Jedecgen
+prj_run Export -impl xnor00 -task Jedecgen
+prj_run Export -impl xnor00 -task Jedecgen
+prj_run Export -impl xnor00 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 8/11/2019 20:01:13
