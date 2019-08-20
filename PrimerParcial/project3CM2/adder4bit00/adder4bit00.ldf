@@ -2,7 +2,7 @@
 <BaliProject version="3.2" title="adder4bit00" device="LCMXO2-7000HE-5TG144C" default_implementation="adder4bit00">
     <Options/>
     <Implementation title="adder4bit00" dir="adder4bit00" description="adder4bit00" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="or00"/>
+        <Options def_top="topadder4bit00"/>
         <Source name="and00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
@@ -13,10 +13,25 @@
             <Options/>
         </Source>
         <Source name="ha00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="ha00"/>
+            <Options/>
         </Source>
         <Source name="or00.vhdl" type="VHDL" type_short="VHDL">
-            <Options top_module="or00"/>
+            <Options/>
+        </Source>
+        <Source name="packagefa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="fa00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="fa00"/>
+        </Source>
+        <Source name="xnor00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="xnor00"/>
+        </Source>
+        <Source name="packageadder4bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topadder4bit00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topadder4bit00"/>
         </Source>
         <Source name="adder4bit00.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
