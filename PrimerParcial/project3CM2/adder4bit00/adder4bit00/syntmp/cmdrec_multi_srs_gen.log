@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topadder4bit00  -multisrs  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_comp.srs  -osyn  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_mult.srs  -log  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\synlog\adder4bit00_adder4bit00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topadder4bit00 -multisrs ..\synwork\adder4bit00_adder4bit00_comp.srs -osyn ..\synwork\adder4bit00_adder4bit00_mult.srs -log ..\synlog\adder4bit00_adder4bit00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\adder4bit00_adder4bit00_comp.srs|io:i|time:1566497757|size:5631|exec:0|csum:0E1B2C5C24862644D094ACD0B46988F8
+file:..\synwork\adder4bit00_adder4bit00_mult.srs|io:o|time:1566497759|size:3242|exec:0|csum:
+file:..\synlog\adder4bit00_adder4bit00_multi_srs_gen.srr|io:o|time:1566497759|size:1231|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

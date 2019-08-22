@@ -1,0 +1,10 @@
+@W: CD638 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Signal sa is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 0 of signal SA is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 1 of signal SA is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 2 of signal SA is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 3 of signal SA is floating -- simulation mismatch possible.
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":75:1:75:5|Input ba of instance AD011 is floating
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":70:1:70:4|Input ba of instance AD10 is floating
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":66:1:66:4|Input ba of instance AD09 is floating
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":62:1:62:4|Input ba of instance AD08 is floating
+

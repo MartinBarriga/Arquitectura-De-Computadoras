@@ -7,8 +7,7 @@ entity or00 is
 	port(
 		Ao: in std_logic;
 		Bo: in std_logic;
-		Yo: out std_logic
-	);
+		Yo: out std_logic);
 end or00;
 
 architecture or0 of or00 is

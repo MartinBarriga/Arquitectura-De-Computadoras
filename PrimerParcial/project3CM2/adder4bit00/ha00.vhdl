@@ -9,8 +9,7 @@ entity ha00 is
 		A0: in std_logic;
 		B0: in std_logic;
 		S0: out std_logic;
-		C0: out std_logic
-	);
+		C0: out std_logic);
 end ha00;
 
 architecture ha0 of ha00 is

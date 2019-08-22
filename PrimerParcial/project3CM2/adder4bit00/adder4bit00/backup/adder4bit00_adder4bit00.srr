@@ -1,0 +1,334 @@
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-56RQHKQ
+
+# Thu Aug 22 12:12:15 2019
+
+#Implementation: adder4bit00
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : adder4bit00
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : adder4bit00
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":7:7:7:20|Top entity is set to topadder4bit00.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":7:7:7:20|Synthesizing work.topadder4bit00.topadder4bit0.
+@W: CD638 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Signal sa is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\xor00.vhdl":6:7:6:11|Synthesizing work.xor00.xor0.
+Post processing for work.xor00.xor0
+Running optimization stage 1 on xor00 .......
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\xnor00.vhdl":6:7:6:12|Synthesizing work.xnor00.xnor0.
+Post processing for work.xnor00.xnor0
+Running optimization stage 1 on xnor00 .......
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\and00.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+Post processing for work.and00.and0
+Running optimization stage 1 on and00 .......
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\fa00.vhdl":6:7:6:10|Synthesizing work.fa00.fa0.
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\or00.vhdl":6:7:6:10|Synthesizing work.or00.or0.
+Post processing for work.or00.or0
+Running optimization stage 1 on or00 .......
+@N: CD630 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\ha00.vhdl":7:7:7:10|Synthesizing work.ha00.ha0.
+Post processing for work.ha00.ha0
+Running optimization stage 1 on ha00 .......
+Post processing for work.fa00.fa0
+Running optimization stage 1 on fa00 .......
+Post processing for work.topadder4bit00.topadder4bit0
+Running optimization stage 1 on topadder4bit00 .......
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 0 of signal SA is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 1 of signal SA is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 2 of signal SA is floating -- simulation mismatch possible.
+@W: CL252 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":18:8:18:9|Bit 3 of signal SA is floating -- simulation mismatch possible.
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":75:1:75:5|Input ba of instance AD011 is floating
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":70:1:70:4|Input ba of instance AD10 is floating
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":66:1:66:4|Input ba of instance AD09 is floating
+@W: CL167 :"C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\topadder4bit00.vhdl":62:1:62:4|Input ba of instance AD08 is floating
+Running optimization stage 2 on ha00 .......
+Running optimization stage 2 on or00 .......
+Running optimization stage 2 on fa00 .......
+Running optimization stage 2 on and00 .......
+Running optimization stage 2 on xnor00 .......
+Running optimization stage 2 on xor00 .......
+Running optimization stage 2 on topadder4bit00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 22 12:12:17 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : adder4bit00
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 22 12:12:18 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\synwork\adder4bit00_adder4bit00_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 22 12:12:18 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Database state : C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\synwork\|adder4bit00
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 22 12:12:20 2019
+
+###########################################################]
+Premap Report
+
+# Thu Aug 22 12:12:22 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : adder4bit00
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\adder4bit00_adder4bit00_scck.rpt 
+Printing clock  summary report in "C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\adder4bit00\adder4bit00\adder4bit00_adder4bit00_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@W: BN132 :"c:\users\martin\desktop\arqui3cm2\primerparcial\project3cm2\adder4bit00\topadder4bit00.vhdl":70:1:70:4|Removing user instance AD10 because it is equivalent to instance AD011. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\martin\desktop\arqui3cm2\primerparcial\project3cm2\adder4bit00\topadder4bit00.vhdl":66:1:66:4|Removing user instance AD09 because it is equivalent to instance AD011. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\martin\desktop\arqui3cm2\primerparcial\project3cm2\adder4bit00\topadder4bit00.vhdl":62:1:62:4|Removing user instance AD08 because it is equivalent to instance AD011. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN115 :"c:\users\martin\desktop\arqui3cm2\primerparcial\project3cm2\adder4bit00\topadder4bit00.vhdl":75:1:75:5|Removing instance AD011 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.and00_1_1(and0) because it does not drive other instances.
+@N: BN115 :"c:\users\martin\desktop\arqui3cm2\primerparcial\project3cm2\adder4bit00\topadder4bit00.vhdl":79:1:79:5|Removing instance AD012 (in view: work.topadder4bit00(topadder4bit0)) of type view:work.xnor00(xnor0) because it does not drive other instances.
+syn_allowed_resources : blockrams=26  set on top level netlist topadder4bit00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 56MB peak: 142MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+# Thu Aug 22 12:12:24 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Thu Aug 22 12:12:24 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : adder4bit00
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 114MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@A: BN321 |Found multiple drivers on net SB[0] (in view: work.topadder4bit00(topadder4bit0)); if one driver is a constant (true or false), use Resolve Mixed Drivers option to connect the net to VCC or GND.
+@E: Net SB[0] (in view: work.topadder4bit00(topadder4bit0)) has conflicting drivers, the connections are
+Connection 1: Direction is (Output ) pin:OUT inst:AD00.Yx of PrimLib.xor(prim)
+Connection 2: Direction is (Output ) pin:S00 inst:AD04 of work.fa00_3(fa0)
+@E: BN314 :"c:\users\martin\desktop\arqui3cm2\primerparcial\project3cm2\adder4bit00\topadder4bit00.vhdl":7:7:7:20|Net SB[0] (in view: work.topadder4bit00(topadder4bit0)) has multiple drivers 
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Aug 22 12:12:25 2019
+
+###########################################################]

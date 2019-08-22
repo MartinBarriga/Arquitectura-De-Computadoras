@@ -7,8 +7,7 @@ entity xnor00 is
 	port(
 		Anx: in std_logic;
 		Bnx: in std_logic;
-		Ynx: out std_logic
-	);
+		Ynx: out std_logic);
 end xnor00;
 
 architecture xnor0 of xnor00 is

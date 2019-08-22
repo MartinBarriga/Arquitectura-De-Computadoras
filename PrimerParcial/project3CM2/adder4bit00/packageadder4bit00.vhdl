@@ -8,8 +8,7 @@ package packageadder4bit00 is
 	port(
 		Ax: in std_logic;
 		Bx: in std_logic;
-		Yx: out std_logic
-	);
+		Yx: out std_logic);
 	end component;
 	
 	component fa00
@@ -18,23 +17,21 @@ package packageadder4bit00 is
 	A00: in std_logic;
 	B00: in std_logic;
 	S00: out std_logic;
-	C01: out std_logic
-	);
+	C01: out std_logic);
+	
 	end component;
 	
 	component and00
 	port(
 		Aa: in std_logic;
 		Ba: in std_logic;
-		Ya: out std_logic
-	);
+		Ya: out std_logic);
 	end component;
 	
 	component xnor00
 	port(
 		Anx: in std_logic;
 		Bnx: in std_logic;
-		Ynx: out std_logic
-	);
+		Ynx: out std_logic);
 	end component;
 end packageadder4bit00;
