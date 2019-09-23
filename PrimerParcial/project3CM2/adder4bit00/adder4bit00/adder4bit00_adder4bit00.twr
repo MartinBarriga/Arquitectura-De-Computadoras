@@ -13,7 +13,7 @@ Setup and Hold Report
 
 --------------------------------------------------------------------------------
 Lattice TRACE Report - Setup, Version Diamond (64-bit) 3.11.0.396.4
-Thu Aug 22 13:16:22 2019
+Tue Aug 27 00:29:33 2019
 
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995 AT&T Corp.   All rights reserved.
@@ -23,7 +23,7 @@ Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
 
 Report Information
 ------------------
-Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o adder4bit00_adder4bit00.twr -gui -msgset C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/promote.xml adder4bit00_adder4bit00.ncd adder4bit00_adder4bit00.prf 
+Command line:    trce -v 10 -gt -sethld -sp 5 -sphld m -o adder4bit00_adder4bit00.twr -gui -msgset C:/Users/sony/Desktop/Trabajos/projectArqui3cm2/adder4bit00/promote.xml adder4bit00_adder4bit00.ncd adder4bit00_adder4bit00.prf 
 Design file:     adder4bit00_adder4bit00.ncd
 Preference file: adder4bit00_adder4bit00.prf
 Device,speed:    LCMXO2-7000HE,5
@@ -41,193 +41,189 @@ Preference: Default path enumeration
             77 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
-Report:   13.203ns delay SL to So[0]
+Report:   15.723ns delay Ai[0] to So[0]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372         97.PAD to       97.PADDI SL
-ROUTE         7     1.980       97.PADDI to      R5C40B.D1 SL_c
-CTOF_DEL    ---     0.452      R5C40B.D1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     1.283      R7C40C.F0 to      R5C40A.B0 LED_c
-CTOF_DEL    ---     0.452      R5C40A.B0 to      R5C40A.F0 SLICE_4
-ROUTE         1     1.165      R5C40A.F0 to      100.PADDO So_c[0]
-DOPAD_DEL   ---     3.448      100.PADDO to        100.PAD So[0]
+PADI_DEL    ---     1.372         10.PAD to       10.PADDI Ai[0]
+ROUTE         2     2.586       10.PADDI to      R15C2C.A1 Ai_c[0]
+CTOF_DEL    ---     0.452      R15C2C.A1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     1.283      R14C2B.F0 to      R15C2A.B0 LED_c
+CTOF_DEL    ---     0.452      R15C2A.B0 to      R15C2A.F0 SLICE_4
+ROUTE         1     3.320      R15C2A.F0 to       54.PADDO So_c[0]
+DOPAD_DEL   ---     3.448       54.PADDO to         54.PAD So[0]
                   --------
-                   13.203   (53.6% logic, 46.4% route), 7 logic levels.
+                   15.723   (45.0% logic, 55.0% route), 7 logic levels.
 
-Report:   13.114ns delay SL to So[2]
+Report:   15.721ns delay Ai[0] to So[1]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372         97.PAD to       97.PADDI SL
-ROUTE         7     1.980       97.PADDI to      R5C40B.D1 SL_c
-CTOF_DEL    ---     0.452      R5C40B.D1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     0.900      R7C40C.F0 to      R7C40B.B0 LED_c
-CTOF_DEL    ---     0.452      R7C40B.B0 to      R7C40B.F0 SLICE_2
-ROUTE         1     1.459      R7C40B.F0 to       92.PADDO So_c[2]
-DOPAD_DEL   ---     3.448       92.PADDO to         92.PAD So[2]
+PADI_DEL    ---     1.372         10.PAD to       10.PADDI Ai[0]
+ROUTE         2     2.586       10.PADDI to      R15C2C.A1 Ai_c[0]
+CTOF_DEL    ---     0.452      R15C2C.A1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     1.252      R14C2B.F0 to      R15C2B.A0 LED_c
+CTOF_DEL    ---     0.452      R15C2B.A0 to      R15C2B.F0 SLICE_3
+ROUTE         1     3.349      R15C2B.F0 to       56.PADDO So_c[1]
+DOPAD_DEL   ---     3.448       56.PADDO to         56.PAD So[1]
                   --------
-                   13.114   (54.0% logic, 46.0% route), 7 logic levels.
+                   15.721   (45.0% logic, 55.0% route), 7 logic levels.
 
-Report:   12.819ns delay Bi[0] to So[0]
+Report:   15.629ns delay SL to So[0]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372        105.PAD to      105.PADDI Bi[0]
-ROUTE         2     1.596      105.PADDI to      R5C40B.C1 Bi_c[0]
-CTOF_DEL    ---     0.452      R5C40B.C1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     1.283      R7C40C.F0 to      R5C40A.B0 LED_c
-CTOF_DEL    ---     0.452      R5C40A.B0 to      R5C40A.F0 SLICE_4
-ROUTE         1     1.165      R5C40A.F0 to      100.PADDO So_c[0]
-DOPAD_DEL   ---     3.448      100.PADDO to        100.PAD So[0]
+PADI_DEL    ---     1.372          1.PAD to        1.PADDI SL
+ROUTE         7     2.492        1.PADDI to      R15C2C.D1 SL_c
+CTOF_DEL    ---     0.452      R15C2C.D1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     1.283      R14C2B.F0 to      R15C2A.B0 LED_c
+CTOF_DEL    ---     0.452      R15C2A.B0 to      R15C2A.F0 SLICE_4
+ROUTE         1     3.320      R15C2A.F0 to       54.PADDO So_c[0]
+DOPAD_DEL   ---     3.448       54.PADDO to         54.PAD So[0]
                   --------
-                   12.819   (55.2% logic, 44.8% route), 7 logic levels.
+                   15.629   (45.3% logic, 54.7% route), 7 logic levels.
 
-Report:   12.788ns delay SL to So[1]
+Report:   15.627ns delay SL to So[1]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372         97.PAD to       97.PADDI SL
-ROUTE         7     1.980       97.PADDI to      R5C40B.D1 SL_c
-CTOF_DEL    ---     0.452      R5C40B.D1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     0.942      R7C40C.F0 to      R5C40C.D0 LED_c
-CTOF_DEL    ---     0.452      R5C40C.D0 to      R5C40C.F0 SLICE_3
-ROUTE         1     1.091      R5C40C.F0 to      103.PADDO So_c[1]
-DOPAD_DEL   ---     3.448      103.PADDO to        103.PAD So[1]
+PADI_DEL    ---     1.372          1.PAD to        1.PADDI SL
+ROUTE         7     2.492        1.PADDI to      R15C2C.D1 SL_c
+CTOF_DEL    ---     0.452      R15C2C.D1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     1.252      R14C2B.F0 to      R15C2B.A0 LED_c
+CTOF_DEL    ---     0.452      R15C2B.A0 to      R15C2B.F0 SLICE_3
+ROUTE         1     3.349      R15C2B.F0 to       56.PADDO So_c[1]
+DOPAD_DEL   ---     3.448       56.PADDO to         56.PAD So[1]
                   --------
-                   12.788   (55.4% logic, 44.6% route), 7 logic levels.
+                   15.627   (45.3% logic, 54.7% route), 7 logic levels.
 
-Report:   12.730ns delay Bi[0] to So[2]
+Report:   15.298ns delay Ai[0] to So[3]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372        105.PAD to      105.PADDI Bi[0]
-ROUTE         2     1.596      105.PADDI to      R5C40B.C1 Bi_c[0]
-CTOF_DEL    ---     0.452      R5C40B.C1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     0.900      R7C40C.F0 to      R7C40B.B0 LED_c
-CTOF_DEL    ---     0.452      R7C40B.B0 to      R7C40B.F0 SLICE_2
-ROUTE         1     1.459      R7C40B.F0 to       92.PADDO So_c[2]
-DOPAD_DEL   ---     3.448       92.PADDO to         92.PAD So[2]
+PADI_DEL    ---     1.372         10.PAD to       10.PADDI Ai[0]
+ROUTE         2     2.586       10.PADDI to      R15C2C.A1 Ai_c[0]
+CTOF_DEL    ---     0.452      R15C2C.A1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     1.231      R14C2B.F1 to      R15C2A.A1 SC[2]
+CTOF_DEL    ---     0.452      R15C2A.A1 to      R15C2A.F1 SLICE_4
+ROUTE         1     3.791      R15C2A.F1 to       59.PADDO So_c[3]
+DOPAD_DEL   ---     3.448       59.PADDO to         59.PAD So[3]
                   --------
-                   12.730   (55.6% logic, 44.4% route), 7 logic levels.
+                   15.298   (43.3% logic, 56.7% route), 6 logic levels.
 
-Report:   12.723ns delay Ai[0] to So[0]
+Report:   15.204ns delay SL to So[3]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372         99.PAD to       99.PADDI Ai[0]
-ROUTE         2     1.500       99.PADDI to      R5C40B.A1 Ai_c[0]
-CTOF_DEL    ---     0.452      R5C40B.A1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     1.283      R7C40C.F0 to      R5C40A.B0 LED_c
-CTOF_DEL    ---     0.452      R5C40A.B0 to      R5C40A.F0 SLICE_4
-ROUTE         1     1.165      R5C40A.F0 to      100.PADDO So_c[0]
-DOPAD_DEL   ---     3.448      100.PADDO to        100.PAD So[0]
+PADI_DEL    ---     1.372          1.PAD to        1.PADDI SL
+ROUTE         7     2.492        1.PADDI to      R15C2C.D1 SL_c
+CTOF_DEL    ---     0.452      R15C2C.D1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     1.231      R14C2B.F1 to      R15C2A.A1 SC[2]
+CTOF_DEL    ---     0.452      R15C2A.A1 to      R15C2A.F1 SLICE_4
+ROUTE         1     3.791      R15C2A.F1 to       59.PADDO So_c[3]
+DOPAD_DEL   ---     3.448       59.PADDO to         59.PAD So[3]
                   --------
-                   12.723   (55.6% logic, 44.4% route), 7 logic levels.
+                   15.204   (43.6% logic, 56.4% route), 6 logic levels.
 
-Report:   12.634ns delay Ai[0] to So[2]
+Report:   14.816ns delay Ai[0] to So[2]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372         99.PAD to       99.PADDI Ai[0]
-ROUTE         2     1.500       99.PADDI to      R5C40B.A1 Ai_c[0]
-CTOF_DEL    ---     0.452      R5C40B.A1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     0.900      R7C40C.F0 to      R7C40B.B0 LED_c
-CTOF_DEL    ---     0.452      R7C40B.B0 to      R7C40B.F0 SLICE_2
-ROUTE         1     1.459      R7C40B.F0 to       92.PADDO So_c[2]
-DOPAD_DEL   ---     3.448       92.PADDO to         92.PAD So[2]
+PADI_DEL    ---     1.372         10.PAD to       10.PADDI Ai[0]
+ROUTE         2     2.586       10.PADDI to      R15C2C.A1 Ai_c[0]
+CTOF_DEL    ---     0.452      R15C2C.A1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     0.284      R14C2B.F0 to      R14C2C.D0 LED_c
+CTOF_DEL    ---     0.452      R14C2C.D0 to      R14C2C.F0 SLICE_2
+ROUTE         1     3.412      R14C2C.F0 to       57.PADDO So_c[2]
+DOPAD_DEL   ---     3.448       57.PADDO to         57.PAD So[2]
                   --------
-                   12.634   (56.0% logic, 44.0% route), 7 logic levels.
+                   14.816   (47.8% logic, 52.2% route), 7 logic levels.
 
-Report:   12.404ns delay Bi[0] to So[1]
+Report:   14.785ns delay SL to So[0]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372        105.PAD to      105.PADDI Bi[0]
-ROUTE         2     1.596      105.PADDI to      R5C40B.C1 Bi_c[0]
-CTOF_DEL    ---     0.452      R5C40B.C1 to      R5C40B.F1 SLICE_1
-ROUTE         2     0.392      R5C40B.F1 to      R5C40B.C0 SC[0]
-CTOF_DEL    ---     0.452      R5C40B.C0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     0.942      R7C40C.F0 to      R5C40C.D0 LED_c
-CTOF_DEL    ---     0.452      R5C40C.D0 to      R5C40C.F0 SLICE_3
-ROUTE         1     1.091      R5C40C.F0 to      103.PADDO So_c[1]
-DOPAD_DEL   ---     3.448      103.PADDO to        103.PAD So[1]
+PADI_DEL    ---     1.372          1.PAD to        1.PADDI SL
+ROUTE         7     2.492        1.PADDI to      R15C2C.D0 SL_c
+CTOF_DEL    ---     0.452      R15C2C.D0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     1.283      R14C2B.F0 to      R15C2A.B0 LED_c
+CTOF_DEL    ---     0.452      R15C2A.B0 to      R15C2A.F0 SLICE_4
+ROUTE         1     3.320      R15C2A.F0 to       54.PADDO So_c[0]
+DOPAD_DEL   ---     3.448       54.PADDO to         54.PAD So[0]
                   --------
-                   12.404   (57.1% logic, 42.9% route), 7 logic levels.
+                   14.785   (44.8% logic, 55.2% route), 6 logic levels.
 
-Report:   12.376ns delay Ai[1] to So[0]
+Report:   14.783ns delay SL to So[1]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372        106.PAD to      106.PADDI Ai[1]
-ROUTE         2     1.997      106.PADDI to      R5C40B.B0 Ai_c[1]
-CTOF_DEL    ---     0.452      R5C40B.B0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     1.283      R7C40C.F0 to      R5C40A.B0 LED_c
-CTOF_DEL    ---     0.452      R5C40A.B0 to      R5C40A.F0 SLICE_4
-ROUTE         1     1.165      R5C40A.F0 to      100.PADDO So_c[0]
-DOPAD_DEL   ---     3.448      100.PADDO to        100.PAD So[0]
+PADI_DEL    ---     1.372          1.PAD to        1.PADDI SL
+ROUTE         7     2.492        1.PADDI to      R15C2C.D0 SL_c
+CTOF_DEL    ---     0.452      R15C2C.D0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     1.252      R14C2B.F0 to      R15C2B.A0 LED_c
+CTOF_DEL    ---     0.452      R15C2B.A0 to      R15C2B.F0 SLICE_3
+ROUTE         1     3.349      R15C2B.F0 to       56.PADDO So_c[1]
+DOPAD_DEL   ---     3.448       56.PADDO to         56.PAD So[1]
                   --------
-                   12.376   (53.6% logic, 46.4% route), 6 logic levels.
+                   14.783   (44.8% logic, 55.2% route), 6 logic levels.
 
-Report:   12.359ns delay SL to So[0]
+Report:   14.722ns delay SL to So[2]
 
    Name    Fanout   Delay (ns)          Site               Resource
-PADI_DEL    ---     1.372         97.PAD to       97.PADDI SL
-ROUTE         7     1.980       97.PADDI to      R5C40B.D0 SL_c
-CTOF_DEL    ---     0.452      R5C40B.D0 to      R5C40B.F0 SLICE_1
-ROUTE         2     0.911      R5C40B.F0 to      R7C40C.B1 SC[1]
-CTOF_DEL    ---     0.452      R7C40C.B1 to      R7C40C.F1 SLICE_0
-ROUTE         2     0.392      R7C40C.F1 to      R7C40C.C0 SC[2]
-CTOF_DEL    ---     0.452      R7C40C.C0 to      R7C40C.F0 SLICE_0
-ROUTE         4     1.283      R7C40C.F0 to      R5C40A.B0 LED_c
-CTOF_DEL    ---     0.452      R5C40A.B0 to      R5C40A.F0 SLICE_4
-ROUTE         1     1.165      R5C40A.F0 to      100.PADDO So_c[0]
-DOPAD_DEL   ---     3.448      100.PADDO to        100.PAD So[0]
+PADI_DEL    ---     1.372          1.PAD to        1.PADDI SL
+ROUTE         7     2.492        1.PADDI to      R15C2C.D1 SL_c
+CTOF_DEL    ---     0.452      R15C2C.D1 to      R15C2C.F1 SLICE_1
+ROUTE         2     0.392      R15C2C.F1 to      R15C2C.C0 SC[0]
+CTOF_DEL    ---     0.452      R15C2C.C0 to      R15C2C.F0 SLICE_1
+ROUTE         2     0.670      R15C2C.F0 to      R14C2B.C1 SC[1]
+CTOF_DEL    ---     0.452      R14C2B.C1 to      R14C2B.F1 SLICE_0
+ROUTE         2     0.392      R14C2B.F1 to      R14C2B.C0 SC[2]
+CTOF_DEL    ---     0.452      R14C2B.C0 to      R14C2B.F0 SLICE_0
+ROUTE         4     0.284      R14C2B.F0 to      R14C2C.D0 LED_c
+CTOF_DEL    ---     0.452      R14C2C.D0 to      R14C2C.F0 SLICE_2
+ROUTE         1     3.412      R14C2C.F0 to       57.PADDO So_c[2]
+DOPAD_DEL   ---     3.448       57.PADDO to         57.PAD So[2]
                   --------
-                   12.359   (53.6% logic, 46.4% route), 6 logic levels.
+                   14.722   (48.1% logic, 51.9% route), 7 logic levels.
 
-Report:   13.203ns is the maximum delay for this preference.
+Report:   15.723ns is the maximum delay for this preference.
 
 
 ================================================================================
@@ -235,73 +231,70 @@ Preference: Default net enumeration
             19 items scored, 0 timing errors detected.
 --------------------------------------------------------------------------------
 
-Report:    2.570ns maximum delay on Ai_c[3]
+Report:    3.791ns maximum delay on So_c[3]
 
            Delays             Connection(s)
-           2.570ns         93.PADDI to R5C40A.B1       
-           1.850ns         93.PADDI to R7C40C.D0       
+           3.791ns        R15C2A.F1 to 59.PADDO        
 
-Report:    2.290ns maximum delay on SL_c
-
-           Delays             Connection(s)
-           2.290ns         97.PADDI to R5C40A.A1       
-           2.095ns         97.PADDI to R5C40C.C1       
-           1.326ns         97.PADDI to R7C40B.C1       
-           1.980ns         97.PADDI to R5C40B.D1       
-           1.980ns         97.PADDI to R5C40B.D0       
-           1.561ns         97.PADDI to R7C40C.D1       
-           1.517ns         97.PADDI to R7C40C.B0       
-
-Report:    1.997ns maximum delay on Ai_c[1]
+Report:    3.777ns maximum delay on LED_c
 
            Delays             Connection(s)
-           1.997ns        106.PADDI to R5C40C.B0       
-           1.997ns        106.PADDI to R5C40B.B0       
+           3.777ns        R14C2B.F0 to 58.PADDO        
+           1.283ns        R14C2B.F0 to R15C2A.B0       
+           1.252ns        R14C2B.F0 to R15C2B.A0       
+           0.284ns        R14C2B.F0 to R14C2C.D0       
 
-Report:    1.975ns maximum delay on Bi_c[3]
-
-           Delays             Connection(s)
-           1.975ns         96.PADDI to R5C40A.C1       
-           1.791ns         96.PADDI to R7C40C.A0       
-
-Report:    1.872ns maximum delay on Ai_c[2]
+Report:    3.412ns maximum delay on So_c[2]
 
            Delays             Connection(s)
-           1.872ns         98.PADDI to R7C40B.A0       
-           1.872ns         98.PADDI to R7C40C.A1       
+           3.412ns        R14C2C.F0 to 57.PADDO        
 
-Report:    1.791ns maximum delay on Bi_c[1]
-
-           Delays             Connection(s)
-           1.481ns        104.PADDI to R5C40C.D1       
-           1.791ns        104.PADDI to R5C40B.A0       
-
-Report:    1.596ns maximum delay on Bi_c[2]
+Report:    3.349ns maximum delay on So_c[1]
 
            Delays             Connection(s)
-           1.481ns         95.PADDI to R7C40B.D1       
-           1.596ns         95.PADDI to R7C40C.C1       
+           3.349ns        R15C2B.F0 to 56.PADDO        
 
-Report:    1.596ns maximum delay on Bi_c[0]
-
-           Delays             Connection(s)
-           1.481ns        105.PADDI to R5C40A.D0       
-           1.596ns        105.PADDI to R5C40B.C1       
-
-Report:    1.586ns maximum delay on LED_c
+Report:    3.320ns maximum delay on So_c[0]
 
            Delays             Connection(s)
-           1.586ns        R7C40C.F0 to 94.PADDO        
-           1.283ns        R7C40C.F0 to R5C40A.B0       
-           0.942ns        R7C40C.F0 to R5C40C.D0       
-           0.900ns        R7C40C.F0 to R7C40B.B0       
+           3.320ns        R15C2A.F0 to 54.PADDO        
 
-Report:    1.533ns maximum delay on So_c[3]
+Report:    3.090ns maximum delay on SL_c
 
            Delays             Connection(s)
-           1.533ns        R5C40A.F1 to 107.PADDO       
+           2.492ns          1.PADDI to R15C2A.D1       
+           2.230ns          1.PADDI to R15C2B.C1       
+           3.090ns          1.PADDI to R14C2C.C1       
+           2.492ns          1.PADDI to R15C2C.D1       
+           2.492ns          1.PADDI to R15C2C.D0       
+           2.975ns          1.PADDI to R14C2B.D1       
+           2.952ns          1.PADDI to R14C2B.B0       
 
-Report:    2.570ns is the maximum delay for this preference.
+Report:    2.794ns maximum delay on Ai_c[2]
+
+           Delays             Connection(s)
+           2.475ns          6.PADDI to R14C2C.B0       
+           2.794ns          6.PADDI to R14C2B.A1       
+
+Report:    2.750ns maximum delay on Ai_c[3]
+
+           Delays             Connection(s)
+           2.750ns          5.PADDI to R15C2A.B1       
+           2.340ns          5.PADDI to R14C2B.A0       
+
+Report:    2.586ns maximum delay on Ai_c[0]
+
+           Delays             Connection(s)
+           2.236ns         10.PADDI to R15C2A.A0       
+           2.586ns         10.PADDI to R15C2C.A1       
+
+Report:    2.388ns maximum delay on Ai_c[1]
+
+           Delays             Connection(s)
+           2.388ns          9.PADDI to R15C2B.D0       
+           2.348ns          9.PADDI to R15C2C.A0       
+
+Report:    3.791ns is the maximum delay for this preference.
 
 Report Summary
 --------------
@@ -309,9 +302,9 @@ Report Summary
 Preference                              |   Constraint|       Actual|Levels
 ----------------------------------------------------------------------------
                                         |             |             |
-Default path enumeration                |     0.000 ns|    13.203 ns|   0  
+Default path enumeration                |     0.000 ns|    15.723 ns|   0  
                                         |             |             |
-Default net enumeration                 |     0.000 ns|     2.570 ns|   0  
+Default net enumeration                 |     0.000 ns|     3.791 ns|   0  
                                         |             |             |
 ----------------------------------------------------------------------------
 

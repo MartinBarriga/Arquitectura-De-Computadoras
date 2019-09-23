@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  adder8bitLib00  -multisrs  C:\Users\martin\Desktop\adder8bitLib00\adder8bitLib00\synwork\adder8bitLib00_adder8bitLib00_comp.srs  -osyn  C:\Users\martin\Desktop\adder8bitLib00\adder8bitLib00\synwork\adder8bitLib00_adder8bitLib00_mult.srs  -log  C:\Users\martin\Desktop\adder8bitLib00\adder8bitLib00\synlog\adder8bitLib00_adder8bitLib00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top adder8bitLib00 -multisrs ..\synwork\adder8bitLib00_adder8bitLib00_comp.srs -osyn ..\synwork\adder8bitLib00_adder8bitLib00_mult.srs -log ..\synlog\adder8bitLib00_adder8bitLib00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\adder8bitLib00_adder8bitLib00_comp.srs|io:i|time:1566923942|size:1779|exec:0|csum:E36B799EAD306F7D6595BD336812020C
+file:..\synwork\adder8bitLib00_adder8bitLib00_mult.srs|io:o|time:1566923944|size:1545|exec:0|csum:
+file:..\synlog\adder8bitLib00_adder8bitLib00_multi_srs_gen.srr|io:o|time:1566923944|size:1051|exec:0|csum:
+file:..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

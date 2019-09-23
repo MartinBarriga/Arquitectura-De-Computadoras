@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/6/2019 07:20:21
+#Project Location: C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/barrelRL00/barrelLR00; Project name: shiftLR00
+prj_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/barrelRL00/barrelLR00/shiftLR00.ldf"
+pgr_project close
+pgr_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/barrelRL00/barrelLR00/shiftLR00/shiftLR00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 9/6/2019 07:22:28

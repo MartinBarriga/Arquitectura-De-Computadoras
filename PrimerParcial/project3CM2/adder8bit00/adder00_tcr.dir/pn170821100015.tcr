@@ -1,0 +1,12 @@
+#Start recording tcl command: 8/21/2017 08:52:14
+#Project Location: C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00; Project name: adder00
+prj_project open "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00.ldf"
+prj_src remove "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00.vhdl"
+prj_src add "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/and00.vhdl"
+prj_src add "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/xor00.vhdl"
+prj_src add "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/packageha00.vhdl"
+prj_src add "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/ha00.vhdl"
+prj_src add "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/or00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 8/21/2017 10:00:15

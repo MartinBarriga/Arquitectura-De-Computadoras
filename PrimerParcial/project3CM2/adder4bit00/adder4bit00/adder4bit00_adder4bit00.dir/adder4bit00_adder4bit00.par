@@ -4,12 +4,12 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Aug 22 13:16:07 2019
+Tue Aug 27 00:29:21 2019
 
 C:/lscc/diamond/3.11_x64/ispfpga\bin\nt64\par -f adder4bit00_adder4bit00.p2t
 adder4bit00_adder4bit00_map.ncd adder4bit00_adder4bit00.dir
 adder4bit00_adder4bit00.prf -gui -msgset
-C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/promote.xml
+C:/Users/sony/Desktop/Trabajos/projectArqui3cm2/adder4bit00/promote.xml
 
 
 Preference file: adder4bit00_adder4bit00.prf.
@@ -17,11 +17,11 @@ Preference file: adder4bit00_adder4bit00.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            -            -            -            -            14           Completed
+5_1   *      0            -            -            -            -            10           Completed
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 14 secs 
+Total (real) run time for 1-seed: 10 secs 
 
 par done!
 

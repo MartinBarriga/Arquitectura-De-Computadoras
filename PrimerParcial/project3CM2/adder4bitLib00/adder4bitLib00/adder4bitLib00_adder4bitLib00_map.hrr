@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell adder4bitLib00
+   Instance path: adder4bitLib00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       3.00        100.0
+                                 IOBUF	         13        100.0
+                                RIPPLE	          3        100.0

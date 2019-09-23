@@ -1,0 +1,22 @@
+#Start recording tcl command: 8/23/2017 20:25:19
+#Project Location: C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00; Project name: adder00
+prj_project open "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00.ldf"
+pgr_project save "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+prj_src add -exclude "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+prj_src enable "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+pgr_program run
+pgr_project save "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+pgr_project close
+pgr_project open "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+prj_run Export -impl adder00 -task Jedecgen
+pgr_project save "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+prj_run Export -impl adder00 -task Jedecgen
+pgr_project save "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+pgr_project close
+pgr_project open "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+pgr_program run
+pgr_project save "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00/adder00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 8/24/2017 09:24:05

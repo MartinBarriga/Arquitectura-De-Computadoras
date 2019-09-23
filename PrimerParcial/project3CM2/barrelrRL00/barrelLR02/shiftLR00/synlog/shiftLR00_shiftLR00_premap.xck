@@ -1,0 +1,2 @@
+ckid0_0:@|S:SRL00.OS01.outdiv.Q[0]@|E:SRL01.scont[3:0]@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_2:@|S:SRL00.OS00.OSCInst0.OSC@|E:SRL00.OS01.sdiv[20:0]@|F:@syn_dgcc_clockid0_2==1@|M:ClockId_0_2

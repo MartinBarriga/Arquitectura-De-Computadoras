@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topshiftLR00  -multisrs  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_comp.srs  -osyn  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\shiftLR00\shiftLR0\synwork\shiftLR00_shiftLR0_mult.srs  -log  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\shiftLR00\shiftLR0\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topshiftLR00 -multisrs ..\synwork\shiftLR00_shiftLR0_comp.srs -osyn ..\synwork\shiftLR00_shiftLR0_mult.srs -log ..\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\shiftLR00_shiftLR0_comp.srs|io:i|time:1567751115|size:7095|exec:0|csum:F76D8F0BDE771E37ED8D1BBF12B47935
+file:..\synwork\shiftLR00_shiftLR0_mult.srs|io:o|time:1567751117|size:2569|exec:0|csum:
+file:..\synlog\shiftLR00_shiftLR0_multi_srs_gen.srr|io:o|time:1567751117|size:1213|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

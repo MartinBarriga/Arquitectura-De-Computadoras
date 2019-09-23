@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topshiftRL00  -multisrs  C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelrLR00\barrelLR03\shiftLR00\synwork\shiftLR00_shiftLR00_comp.srs  -osyn  C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelrLR00\barrelLR03\shiftLR00\synwork\shiftLR00_shiftLR00_mult.srs  -log  C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelrLR00\barrelLR03\shiftLR00\synlog\shiftLR00_shiftLR00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topshiftRL00 -multisrs ..\synwork\shiftLR00_shiftLR00_comp.srs -osyn ..\synwork\shiftLR00_shiftLR00_mult.srs -log ..\synlog\shiftLR00_shiftLR00_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\shiftLR00_shiftLR00_comp.srs|io:i|time:1567763495|size:7476|exec:0|csum:9B63A058A0401E1EF5F60DD8126ABE4A
+file:..\synwork\shiftLR00_shiftLR00_mult.srs|io:o|time:1567763496|size:2588|exec:0|csum:
+file:..\synlog\shiftLR00_shiftLR00_multi_srs_gen.srr|io:o|time:1567763496|size:1327|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

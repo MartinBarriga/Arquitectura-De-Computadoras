@@ -1,0 +1,11 @@
+#Start recording tcl command: 8/27/2019 11:37:51
+#Project Location: C:/Users/martin/Desktop/adder8bitLib00; Project name: adder8bitLib00
+prj_project new -name "adder8bitLib00" -impl "adder8bitLib00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/martin/Desktop/adder8bitLib00/adder8bitLib00.vhdl"
+prj_run Export -impl adder8bitLib00 -task Jedecgen
+prj_run Export -impl adder8bitLib00 -task Jedecgen
+prj_run Export -impl adder8bitLib00 -task Jedecgen
+prj_project save
+prj_project close
+#Stop recording: 8/27/2019 11:46:02

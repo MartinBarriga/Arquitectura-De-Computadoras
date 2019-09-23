@@ -1,0 +1,6 @@
+#Start recording tcl command: 8/23/2017 11:39:47
+#Project Location: C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00; Project name: adder00
+prj_project open "C:/Users/mange/Desktop/Arquitectura de Computadoras/Practicas Mach XO2/Practica 2/adder4bit00/adder00.ldf"
+prj_run Export -impl adder00 -task Jedecgen
+prj_run Export -impl adder00 -task Jedecgen
+#Stop recording: 8/23/2017 11:53:27

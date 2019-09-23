@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/6/2019 07:34:36
+#Project Location: C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bitLib00; Project name: adder4bitLib00
+prj_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bitLib00/adder4bitLib00.ldf"
+pgr_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bitLib00/adder4bitLib00/adder4bitLib00.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 9/6/2019 07:40:27

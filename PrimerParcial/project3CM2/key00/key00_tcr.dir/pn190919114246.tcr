@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/19/2019 10:45:42
+#Project Location: C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/key00; Project name: key00
+prj_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/key00/key00.ldf"
+prj_src add "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/key00/packagekey00.vhdl"
+prj_src add "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/key00/topkey00.vhdl"
+prj_run Export -impl key0 -task Jedecgen
+#Stop recording: 9/19/2019 11:42:46

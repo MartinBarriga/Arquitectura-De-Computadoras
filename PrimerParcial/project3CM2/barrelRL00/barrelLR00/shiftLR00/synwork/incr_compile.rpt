@@ -1,0 +1,58 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : shiftLR00
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+22       C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\shiftRL00.vhd (2019-08-04 00:00:34, 2019-09-06 02:45:35)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 1
+MID:  lib.cell.view
+4        work.shiftrl00.shiftrl0 may have changed because the following files changed:
+                        C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\shiftRL00.vhd (2019-08-04 00:00:34, 2019-09-06 02:45:35) <-- (architecture and entity definition)
+
+*******************************************************************
+Unmodified files: 17
+FID:  path (timestamp)
+18       C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\div00.vhd (2019-08-04 00:00:34)
+19       C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\osc00.vhd (2019-08-04 00:00:34)
+20       C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\packagediv00.vhd (2019-08-04 00:00:34)
+21       C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\packageshiftRL00.vhd (2019-08-04 00:00:34)
+23       C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\topdiv00.vhd (2019-08-04 00:00:34)
+24       C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrelLR00\topshiftRL00.vhd (2019-08-04 00:00:34)
+25       C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd (2018-11-15 00:32:12)
+26       C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd (2019-04-01 08:08:08)
+27       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\arith.vhd (2019-04-01 08:07:44)
+28       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\hyperents.vhd (2019-04-01 08:07:44)
+29       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\location.map (2019-04-01 15:01:20)
+30       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\numeric.vhd (2019-04-01 08:07:44)
+31       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\snps_haps_pkg.vhd (2019-04-01 08:07:44)
+32       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std.vhd (2019-04-01 08:07:44)
+33       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\std1164.vhd (2019-04-01 08:07:44)
+34       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\umr_capim.vhd (2019-04-01 08:07:44)
+35       C:\lscc\diamond\3.11_x64\synpbase\lib\vhd\unsigned.vhd (2019-04-01 08:07:44)
+
+*******************************************************************
+Unchanged modules: 8
+MID:  lib.cell.view
+0        work.div00.div0
+1        work.div00.vhdl
+2        work.osc00.osc0
+3        work.osc00.vhdl
+6        work.topdiv00.topdiv0
+7        work.topdiv00.vhdl
+8        work.topshiftrl00.topshiftrl0
+9        work.topshiftrl00.vhdl

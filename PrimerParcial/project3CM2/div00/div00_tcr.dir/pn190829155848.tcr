@@ -1,0 +1,7 @@
+#Start recording tcl command: 8/29/2019 11:22:04
+#Project Location: C:/Users/sony/Desktop/Trabajos/projectArqui3cm2/div00; Project name: div00
+prj_project new -name "div00" -impl "div0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/sony/Desktop/Trabajos/projectArqui3cm2/div00/osc00.vhdl"
+prj_src add "C:/Users/sony/Desktop/Trabajos/projectArqui3cm2/div00/div00.vhdl"
+#Stop recording: 8/29/2019 15:58:48

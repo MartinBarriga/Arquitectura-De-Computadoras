@@ -1,0 +1,11 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  C:\Users\mange\Desktop\adder8bit00\adder00   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile C:\Users\mange\Desktop\adder8bit00\adder00\synlog\report\adder00_adder00_fpga_mapper.xml  -top_level_module  topadder4bit00  -flow mapping  -multisrs  -oedif  C:\Users\mange\Desktop\adder8bit00\adder00\adder00_adder00.edi   -freq 1.000   C:\Users\mange\Desktop\adder8bit00\adder00\synwork\adder00_adder00_prem.srd  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  C:\Users\mange\Desktop\adder8bit00\adder00\syntmp\adder00_adder00.plg  -osyn  C:\Users\mange\Desktop\adder8bit00\adder00\adder00_adder00.srm  -prjdir  C:\Users\mange\Desktop\adder8bit00\adder00\  -prjname  proj_1  -log  C:\Users\mange\Desktop\adder8bit00\adder00\synlog\adder00_adder00_fpga_mapper.srr 
+rc:0 success:1 runtime:3
+file:C:\Users\mange\Desktop\adder8bit00\adder00\adder00_adder00.edi|io:o|time:1503622970|size:52577|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\adder00\synwork\adder00_adder00_prem.srd|io:i|time:1503622967|size:6618|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\machxo2.v|io:i|time:1481007224|size:54295|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1481007224|size:40584|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\adder00\syntmp\adder00_adder00.plg|io:o|time:1503622970|size:742|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\adder00\adder00_adder00.srm|io:o|time:1503622969|size:7881|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\adder00\synlog\adder00_adder00_fpga_mapper.srr|io:o|time:1503622970|size:7278|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\m_gen_lattice.exe|io:i|time:1481008090|size:19188224|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\m_gen_lattice.exe|io:i|time:1481009688|size:23047168|exec:1

@@ -1,0 +1,790 @@
+<HTML>
+<HEAD><TITLE>Synthesis Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Syn"></A><B><U><big>Synthesis Report</big></U></B>
+#Build: Synplify Pro (R) N-2018.03L-SP1-1, Build 443R, Apr  1 2019
+#install: C:\lscc\diamond\3.11_x64\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-56RQHKQ
+
+# Fri Sep  6 04:29:23 2019
+
+#Implementation: shiftLR00
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : shiftLR00
+Synopsys HDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : shiftLR00
+Synopsys VHDL Compiler, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+@N:"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\topshiftRL00.vhd":7:7:7:18|Top entity is set to topshiftRL00.
+File C:\lscc\diamond\3.11_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\osc00.vhd changed - recompiling
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\packagediv00.vhd changed - recompiling
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\packageshiftRL00.vhd changed - recompiling
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftRL00.vhd changed - recompiling
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\topdiv00.vhd changed - recompiling
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\topshiftRL00.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftRL00.vhd changed - recompiling
+@N: CD630 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\topshiftRL00.vhd":7:7:7:18|Synthesizing work.topshiftrl00.topshiftrl0.
+@N: CD630 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftRL00.vhd":8:7:8:15|Synthesizing work.shiftrl00.shiftrl0.
+Post processing for work.shiftrl00.shiftrl0
+Running optimization stage 1 on shiftRL00 .......
+@N: CD630 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\topdiv00.vhd":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":28:5:28:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":36:5:36:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":44:5:44:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":52:5:52:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":60:5:60:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":68:5:68:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":76:5:76:10|Removing redundant assignment.
+@N: CD364 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\div00.vhd":84:5:84:10|Removing redundant assignment.
+Post processing for work.div00.div0
+Running optimization stage 1 on div00 .......
+@N: CD630 :"C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\osc00.vhd":6:7:6:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.11_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Running optimization stage 1 on OSCH .......
+Post processing for work.osc00.osc0
+Running optimization stage 1 on osc00 .......
+Post processing for work.topdiv00.topdiv0
+Running optimization stage 1 on topdiv00 .......
+Post processing for work.topshiftrl00.topshiftrl0
+Running optimization stage 1 on topshiftRL00 .......
+Running optimization stage 2 on OSCH .......
+Running optimization stage 2 on osc00 .......
+Running optimization stage 2 on div00 .......
+Running optimization stage 2 on topdiv00 .......
+Running optimization stage 2 on shiftRL00 .......
+Running optimization stage 2 on topshiftRL00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 79MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  6 04:29:24 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : shiftLR00
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  6 04:29:25 2019
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\synwork\shiftLR00_shiftLR00_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  6 04:29:25 2019
+
+###########################################################]
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Database state : C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\synwork\|shiftLR00
+Synopsys Synopsys Netlist Linker, Version comp2018q2p1, Build 461R, Built Apr  1 2019 09:17:43
+
+@N|Running in 64-bit mode
+File C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\synwork\shiftLR00_shiftLR00_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Sep  6 04:29:26 2019
+
+###########################################################]
+Premap Report
+
+# Fri Sep  6 04:29:27 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : shiftLR00
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\shiftLR00_shiftLR00_scck.rpt 
+Printing clock  summary report in "C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\shiftLR00_shiftLR00_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+syn_allowed_resources : blockrams=26  set on top level netlist topshiftRL00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     20   
+====================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                 Clock     Source                            Clock Pin               Non-clock Pin     Non-clock Pin
+Clock                            Load      Pin                               Seq Example             Seq Example       Comb Example 
+------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     22        SRL00.OS00.OSCInst0.OSC(OSCH)     SRL00.OS01.outdiv.C     -                 -            
+div00|outdiv_derived_clock       20        SRL00.OS01.outdiv.Q[0](dffe)      SRL01.sshift[7:0].C     -                 -            
+====================================================================================================================================
+
+@W: MT529 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\div00.vhd":20:4:20:5|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including SRL00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+2 gated/generated clock tree(s) driving 42 clock pin(s) of sequential element(s)
+0 instances converted, 42 sequential instances remain driven by gated/generated clocks
+
+==================================================================== Gated/Generated Clocks ====================================================================
+Clock Tree ID     Driving Element             Drive Element Type     Unconverted Fanout     Sample Instance           Explanation                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       SRL00.OS01.outdiv.Q[0]      dffe                   20                     SRL01.scont[3:0]          Derived clock on input (not legal for GCC)
+@KP:ckid0_2       SRL00.OS00.OSCInst0.OSC     OSCH                   22                     SRL00.OS01.sdiv[20:0]     Black box on clock path                   
+================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 143MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Sep  6 04:29:28 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Sep  6 04:29:29 2019
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03L-SP1-1
+Install: C:\lscc\diamond\3.11_x64\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-56RQHKQ
+
+Implementation : shiftLR00
+Synopsys Lattice Technology Mapper, Version maplat2018q2p1, Build 055R, Built Apr  3 2019 09:51:54
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 143MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 143MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 143MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 144MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 144MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   468.53ns		  66 /        42
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_7_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_6_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_5_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_4_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_3_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_2_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_1_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"c:\users\martin\desktop\arquitectura-de-computadoras-master\arquitectura-de-computadoras-master\i\practicas\barrel\barrellr01\shiftrl00.vhd":23:4:23:5|Boundary register SRL01.outs_0_.fb (in view: work.topshiftRL00(topshiftrl0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 148MB peak: 150MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 114MB peak: 150MB)
+
+Writing Analyst data base C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\synwork\shiftLR00_shiftLR00_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 147MB peak: 150MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\martin\Desktop\Arquitectura-de-Computadoras-master\Arquitectura-de-Computadoras-master\I\Practicas\barrel\barrelLR01\shiftLR00\shiftLR00_shiftLR00.edi
+N-2018.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 151MB peak: 154MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 152MB peak: 154MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on net SRL00.OS00.sclk.
+@N: MT615 |Found clock div00|outdiv_derived_clock with period 480.77ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Sep  6 04:29:33 2019
+#
+
+
+Top view:               topshiftRL00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 467.596
+
+                                 Requested     Estimated     Requested     Estimated                 Clock                                           Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type                                            Group              
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+div00|outdiv_derived_clock       2.1 MHz       312.1 MHz     480.769       3.204         955.130     derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0
+osc00|osc_int_inferred_clock     2.1 MHz       75.9 MHz      480.769       13.174        467.596     inferred                                        Inferred_clkgroup_0
+========================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     467.596  |  No paths    -      |  No paths    -      |  No paths    -    
+div00|outdiv_derived_clock    div00|outdiv_derived_clock    |  480.769     955.130  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: div00|outdiv_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                    Starting                                                         Arrival            
+Instance            Reference                      Type        Pin     Net           Time        Slack  
+                    Clock                                                                               
+--------------------------------------------------------------------------------------------------------
+SRL01.scont[0]      div00|outdiv_derived_clock     FD1S3IX     Q       scont[0]      1.180       955.130
+SRL01.scont[1]      div00|outdiv_derived_clock     FD1S3IX     Q       scont[1]      1.148       955.305
+SRL01.scont[2]      div00|outdiv_derived_clock     FD1S3IX     Q       scont[2]      1.108       955.345
+SRL01.scont[3]      div00|outdiv_derived_clock     FD1S3IX     Q       scont[3]      1.044       957.292
+SRL01.sshift[1]     div00|outdiv_derived_clock     FD1P3AX     Q       sshift[1]     1.044       959.967
+SRL01.sshift[2]     div00|outdiv_derived_clock     FD1P3AX     Q       sshift[2]     1.044       959.967
+SRL01.sshift[3]     div00|outdiv_derived_clock     FD1P3AX     Q       sshift[3]     1.044       959.967
+SRL01.sshift[4]     div00|outdiv_derived_clock     FD1P3AX     Q       sshift[4]     1.044       959.967
+SRL01.sshift[5]     div00|outdiv_derived_clock     FD1P3AX     Q       sshift[5]     1.044       959.967
+SRL01.sshift[6]     div00|outdiv_derived_clock     FD1P3AX     Q       sshift[6]     1.044       959.967
+========================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                      Required            
+Instance            Reference                      Type         Pin     Net                       Time         Slack  
+                    Clock                                                                                             
+----------------------------------------------------------------------------------------------------------------------
+SRL01_outsio[0]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01_outsio[1]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01_outsio[2]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01_outsio[3]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01_outsio[4]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01_outsio[5]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01_outsio[6]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01_outsio[7]     div00|outdiv_derived_clock     OFS1P3IX     SP      SRL01.outs_1_sqmuxa_i     961.067      955.130
+SRL01.sshift[0]     div00|outdiv_derived_clock     FD1P3AX      SP      outs_1_sqmuxa_i           961.067      955.130
+SRL01.sshift[1]     div00|outdiv_derived_clock     FD1P3AX      SP      outs_1_sqmuxa_i           961.067      955.130
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      961.538
+    - Setup time:                            0.472
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         961.067
+
+    - Propagation time:                      5.937
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 955.130
+
+    Number of logic level(s):                4
+    Starting point:                          SRL01.scont[0] / Q
+    Ending point:                            SRL01_outsio[0] / SP
+    The start point is clocked by            div00|outdiv_derived_clock [rising] on pin CK
+    The end   point is clocked by            div00|outdiv_derived_clock [rising] on pin SCLK
+    -Timing constraint applied as multi cycle path with factor 2 (from c:div00|outdiv_derived_clock to c:div00|outdiv_derived_clock)
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                          Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+SRL01.scont[0]                                FD1S3IX      Q        Out     1.180     1.180       -         
+scont[0]                                      Net          -        -       -         -           5         
+SRL01.pshift\.un1_control_cry_0_0             CCU2D        A1       In      0.000     1.180       -         
+SRL01.pshift\.un1_control_cry_0_0             CCU2D        COUT     Out     1.544     2.724       -         
+un1_control_cry_0                             Net          -        -       -         -           1         
+SRL01.pshift\.un1_control_cry_1_0             CCU2D        CIN      In      0.000     2.724       -         
+SRL01.pshift\.un1_control_cry_1_0             CCU2D        COUT     Out     0.143     2.867       -         
+un1_control_cry_2                             Net          -        -       -         -           1         
+SRL01.pshift\.un1_control_cry_3_0             CCU2D        CIN      In      0.000     2.867       -         
+SRL01.pshift\.un1_control_cry_3_0             CCU2D        S1       Out     1.757     4.624       -         
+un1_control                                   Net          -        -       -         -           5         
+SRL01.pshift\.un1_control_cry_3_0_RNILOG8     ORCALUT4     A        In      0.000     4.624       -         
+SRL01.pshift\.un1_control_cry_3_0_RNILOG8     ORCALUT4     Z        Out     1.313     5.937       -         
+outs_1_sqmuxa_i                               Net          -        -       -         -           16        
+SRL01_outsio[0]                               OFS1P3IX     SP       In      0.000     5.937       -         
+============================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                        Starting                                                          Arrival            
+Instance                Reference                        Type        Pin     Net          Time        Slack  
+                        Clock                                                                                
+-------------------------------------------------------------------------------------------------------------
+SRL00.OS01.sdiv[2]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]      1.044       467.596
+SRL00.OS01.sdiv[3]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]      1.044       467.596
+SRL00.OS01.sdiv[4]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]      1.044       467.596
+SRL00.OS01.sdiv[5]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]      1.044       467.596
+SRL00.OS01.sdiv[6]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]      1.044       467.596
+SRL00.OS01.sdiv[7]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.044       467.596
+SRL00.OS01.sdiv[8]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.108       468.588
+SRL00.OS01.sdiv[9]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.108       468.588
+SRL00.OS01.sdiv[10]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[10]     1.108       468.588
+SRL00.OS01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[11]     1.108       468.588
+=============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                        Starting                                                              Required            
+Instance                Reference                        Type        Pin     Net              Time         Slack  
+                        Clock                                                                                     
+------------------------------------------------------------------------------------------------------------------
+SRL00.OS01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      467.596
+SRL00.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[21]     480.664      467.596
+SRL00.OS01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      467.738
+SRL00.OS01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      467.738
+SRL00.OS01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      467.881
+SRL00.OS01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      467.881
+SRL00.OS01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      468.024
+SRL00.OS01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      468.024
+SRL00.OS01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      468.167
+SRL00.OS01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      468.167
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      13.068
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     467.595
+
+    Number of logic level(s):                18
+    Starting point:                          SRL00.OS01.sdiv[2] / Q
+    Ending point:                            SRL00.OS01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                          Pin      Pin               Arrival     No. of    
+Name                                       Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------
+SRL00.OS01.sdiv[2]                         FD1S3IX      Q        Out     1.044     1.044       -         
+sdiv[2]                                    Net          -        -       -         -           2         
+SRL00.OS01.pdiv\.sdiv15lto18_i_a2_15_3     ORCALUT4     A        In      0.000     1.044       -         
+SRL00.OS01.pdiv\.sdiv15lto18_i_a2_15_3     ORCALUT4     Z        Out     1.017     2.061       -         
+sdiv15lto18_i_a2_15_3                      Net          -        -       -         -           1         
+SRL00.OS01.pdiv\.sdiv15lto18_i_a2_15       ORCALUT4     A        In      0.000     2.061       -         
+SRL00.OS01.pdiv\.sdiv15lto18_i_a2_15       ORCALUT4     Z        Out     1.193     3.253       -         
+N_24_9                                     Net          -        -       -         -           4         
+SRL00.OS01.pdiv\.sdiv36lto15_i_a2          ORCALUT4     B        In      0.000     3.253       -         
+SRL00.OS01.pdiv\.sdiv36lto15_i_a2          ORCALUT4     Z        Out     1.225     4.478       -         
+N_3_18                                     Net          -        -       -         -           5         
+SRL00.OS01.pdiv\.sdiv29lto17               ORCALUT4     A        In      0.000     4.478       -         
+SRL00.OS01.pdiv\.sdiv29lto17               ORCALUT4     Z        Out     1.017     5.495       -         
+sdiv29lt20                                 Net          -        -       -         -           1         
+SRL00.OS01.outdiv_0_sqmuxa_3               ORCALUT4     B        In      0.000     5.495       -         
+SRL00.OS01.outdiv_0_sqmuxa_3               ORCALUT4     Z        Out     1.089     6.584       -         
+outdiv_0_sqmuxa_3                          Net          -        -       -         -           2         
+SRL00.OS01.un1_sdiv69_3                    ORCALUT4     A        In      0.000     6.584       -         
+SRL00.OS01.un1_sdiv69_3                    ORCALUT4     Z        Out     1.089     7.673       -         
+un1_sdiv69_3                               Net          -        -       -         -           2         
+SRL00.OS01.un1_sdiv69_i                    ORCALUT4     A        In      0.000     7.673       -         
+SRL00.OS01.un1_sdiv69_i                    ORCALUT4     Z        Out     1.017     8.689       -         
+un1_sdiv69_i                               Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_0_0                CCU2D        B0       In      0.000     8.689       -         
+SRL00.OS01.un1_sdiv_cry_0_0                CCU2D        COUT     Out     1.544     10.234      -         
+un1_sdiv_cry_0                             Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_1_0                CCU2D        CIN      In      0.000     10.234      -         
+SRL00.OS01.un1_sdiv_cry_1_0                CCU2D        COUT     Out     0.143     10.377      -         
+un1_sdiv_cry_2                             Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_3_0                CCU2D        CIN      In      0.000     10.377      -         
+SRL00.OS01.un1_sdiv_cry_3_0                CCU2D        COUT     Out     0.143     10.520      -         
+un1_sdiv_cry_4                             Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_5_0                CCU2D        CIN      In      0.000     10.520      -         
+SRL00.OS01.un1_sdiv_cry_5_0                CCU2D        COUT     Out     0.143     10.662      -         
+un1_sdiv_cry_6                             Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_7_0                CCU2D        CIN      In      0.000     10.662      -         
+SRL00.OS01.un1_sdiv_cry_7_0                CCU2D        COUT     Out     0.143     10.805      -         
+un1_sdiv_cry_8                             Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_9_0                CCU2D        CIN      In      0.000     10.805      -         
+SRL00.OS01.un1_sdiv_cry_9_0                CCU2D        COUT     Out     0.143     10.948      -         
+un1_sdiv_cry_10                            Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_11_0               CCU2D        CIN      In      0.000     10.948      -         
+SRL00.OS01.un1_sdiv_cry_11_0               CCU2D        COUT     Out     0.143     11.091      -         
+un1_sdiv_cry_12                            Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_13_0               CCU2D        CIN      In      0.000     11.091      -         
+SRL00.OS01.un1_sdiv_cry_13_0               CCU2D        COUT     Out     0.143     11.233      -         
+un1_sdiv_cry_14                            Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_15_0               CCU2D        CIN      In      0.000     11.233      -         
+SRL00.OS01.un1_sdiv_cry_15_0               CCU2D        COUT     Out     0.143     11.376      -         
+un1_sdiv_cry_16                            Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_17_0               CCU2D        CIN      In      0.000     11.376      -         
+SRL00.OS01.un1_sdiv_cry_17_0               CCU2D        COUT     Out     0.143     11.519      -         
+un1_sdiv_cry_18                            Net          -        -       -         -           1         
+SRL00.OS01.un1_sdiv_cry_19_0               CCU2D        CIN      In      0.000     11.519      -         
+SRL00.OS01.un1_sdiv_cry_19_0               CCU2D        S1       Out     1.549     13.068      -         
+un1_sdiv[21]                               Net          -        -       -         -           1         
+SRL00.OS01.sdiv[20]                        FD1S3IX      D        In      0.000     13.068      -         
+=========================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 152MB peak: 154MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 152MB peak: 154MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-4
+
+Register bits: 42 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       27
+
+
+Details:
+CCU2D:          14
+FD1P3AX:        8
+FD1S3AX:        1
+FD1S3IX:        25
+GSR:            1
+IB:             18
+INV:            1
+OB:             9
+OFS1P3IX:       8
+ORCALUT4:       64
+OSCH:           1
+PUR:            1
+VHI:            3
+VLO:            4
+false:          1
+true:           2
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 33MB peak: 154MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:03s cputime
+# Fri Sep  6 04:29:33 2019
+
+###########################################################]
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

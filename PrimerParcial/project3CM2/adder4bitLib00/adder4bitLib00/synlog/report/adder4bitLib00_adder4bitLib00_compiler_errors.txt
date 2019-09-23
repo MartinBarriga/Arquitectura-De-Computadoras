@@ -1,0 +1,12 @@
+@E: CL219 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Multiple non-tristate drivers for net So(3) in adder4bitLib00
+@E: CL219 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Multiple non-tristate drivers for net So(2) in adder4bitLib00
+@E: CL219 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Multiple non-tristate drivers for net So(1) in adder4bitLib00
+@E: CL219 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Multiple non-tristate drivers for net So(0) in adder4bitLib00
+@E: CL229 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Unresolved tristate drivers for net So(0) in adder4bitLib00
+@E: CL229 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Unresolved tristate drivers for net So(1) in adder4bitLib00
+@E: CL229 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Unresolved tristate drivers for net So(2) in adder4bitLib00
+@E: CL229 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":12:2:12:4|Unresolved tristate drivers for net So(3) in adder4bitLib00
+@E: MF420 |Netlist read from file C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00\synwork\layer0.srs failed
+@E: Could not find specified top level adder4bitLib00 (library: work, cell: adder4bitLib00)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

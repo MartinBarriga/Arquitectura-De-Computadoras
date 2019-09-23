@@ -1,0 +1,17 @@
+C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe  -osyn  C:\Users\mange\Desktop\adder8bit00\adder00\synwork\adder00_adder00_hdl_.srs  -top  topadder4bit00  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\Users\mange\Desktop\adder8bit00\adder00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work C:\Users\mange\Desktop\adder8bit00\and00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\xor00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\or00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\packageha00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\ha00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\packagefa00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\fa00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\xnor00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\packageadder00.vhdl -lib work C:\Users\mange\Desktop\adder8bit00\topadder4bit00.vhdl  -log  C:\Users\mange\Desktop\adder8bit00\adder00\syntax.log  -fileorder  C:\Users\mange\Desktop\adder8bit00\adder00\syntmp\hdlorder.tcl 
+rc:0 success:1 runtime:0
+file:C:\Users\mange\Desktop\adder8bit00\adder00\synwork\adder00_adder00_hdl_.srs|io:o|time:0|size:0|exec:0
+file:C:\lscc\diamond\3.9_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1480973228|size:73964|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\and00.vhdl|io:i|time:1503497985|size:263|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\xor00.vhdl|io:i|time:1503324459|size:261|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\or00.vhdl|io:i|time:1503325668|size:254|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\packageha00.vhdl|io:i|time:1503324828|size:350|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\ha00.vhdl|io:i|time:1503496321|size:388|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\packagefa00.vhdl|io:i|time:1503496800|size:340|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\fa00.vhdl|io:i|time:1503497681|size:565|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\xnor00.vhdl|io:i|time:1503497905|size:259|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\packageadder00.vhdl|io:i|time:1503498299|size:589|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\topadder4bit00.vhdl|io:i|time:1503622959|size:2875|exec:0
+file:C:\Users\mange\Desktop\adder8bit00\adder00\syntax.log|io:o|time:1503622962|size:1019|exec:0
+file:C:\lscc\diamond\3.9_x64\synpbase\bin\c_vhdl.exe|io:i|time:1481009758|size:2416640|exec:1
+file:C:\lscc\diamond\3.9_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1481010008|size:3082752|exec:1

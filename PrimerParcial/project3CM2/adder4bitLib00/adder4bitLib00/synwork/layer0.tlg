@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00.vhdl":7:7:7:20|Synthesizing work.adder4bitlib00.adder4bitlib0.
+Post processing for work.adder4bitlib00.adder4bitlib0
+Running optimization stage 1 on adder4bitLib00 .......
+Running optimization stage 2 on adder4bitLib00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\martin\Desktop\adder4bitLib00\adder4bitLib00\synwork\layer0.rt.csv
+

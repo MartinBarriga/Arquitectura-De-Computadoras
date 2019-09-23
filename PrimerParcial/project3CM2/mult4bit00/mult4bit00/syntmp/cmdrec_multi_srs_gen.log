@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  mult4bit00  -multisrs  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_comp.srs  -osyn  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\mult4bit00\mult4bit00\synwork\mult4bit00_mult4bit00_mult.srs  -log  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\mult4bit00\mult4bit00\synlog\mult4bit00_mult4bit00_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top mult4bit00 -multisrs ..\synwork\mult4bit00_mult4bit00_comp.srs -osyn ..\synwork\mult4bit00_mult4bit00_mult.srs -log ..\synlog\mult4bit00_mult4bit00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\mult4bit00_mult4bit00_comp.srs|io:i|time:1566921068|size:5631|exec:0|csum:EC80D9F142BF36151BC1BDD5A2ACB586
+file:..\synwork\mult4bit00_mult4bit00_mult.srs|io:o|time:1566921070|size:3296|exec:0|csum:
+file:..\synlog\mult4bit00_mult4bit00_multi_srs_gen.srr|io:o|time:1566921070|size:1075|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

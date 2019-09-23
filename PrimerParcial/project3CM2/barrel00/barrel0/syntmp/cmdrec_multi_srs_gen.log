@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topbarrel00  -multisrs  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\barrel00\barrel0\synwork\barrel00_barrel0_comp.srs  -osyn  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\barrel00\barrel0\synwork\barrel00_barrel0_mult.srs  -log  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\barrel00\barrel0\synlog\barrel00_barrel0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topbarrel00 -multisrs ..\synwork\barrel00_barrel0_comp.srs -osyn ..\synwork\barrel00_barrel0_mult.srs -log ..\synlog\barrel00_barrel0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\barrel00_barrel0_comp.srs|io:i|time:1567781915|size:7949|exec:0|csum:867D65717B1CE5372EB8FE63D4FC1C5A
+file:..\synwork\barrel00_barrel0_mult.srs|io:o|time:1567781916|size:2669|exec:0|csum:
+file:..\synlog\barrel00_barrel0_multi_srs_gen.srr|io:o|time:1567781916|size:1067|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

@@ -1,0 +1,17 @@
+#Start recording tcl command: 8/27/2019 09:42:22
+#Project Location: C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00; Project name: adder4bit00
+prj_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/adder4bit00.ldf"
+pgr_project save "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_src add -exclude "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/adder4bit00/adder4bit00.xcf"
+prj_src enable "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/Users/martin/Desktop/Arqui3cm2/PrimerParcial/project3CM2/adder4bit00/adder4bit00/adder4bit00.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 8/27/2019 10:45:01
