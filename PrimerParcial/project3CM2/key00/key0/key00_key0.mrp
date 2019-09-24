@@ -15,20 +15,20 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.11.0.396.4
-Mapped on:  09/19/19  11:16:43
+Mapped on:  09/24/19  08:56:28
 
 Design Summary
 --------------
 
    Number of registers:     36 out of  7209 (0%)
-      PFU registers:           36 out of  6864 (1%)
-      PIO registers:            0 out of   345 (0%)
+      PFU registers:           29 out of  6864 (0%)
+      PIO registers:            7 out of   345 (2%)
    Number of SLICEs:        45 out of  3432 (1%)
       SLICEs as Logic/ROM:     45 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         12 out of  3432 (0%)
-   Number of LUT4s:         89 out of  6864 (1%)
-      Number used as logic LUTs:         65
+   Number of LUT4s:         88 out of  6864 (1%)
+      Number used as logic LUTs:         64
       Number used as distributed RAM:     0
       Number used as ripple logic:       24
       Number used as shift registers:     0
@@ -57,39 +57,37 @@ Design Summary
      distributed RAMs) + 2*(Number of ripple logic)
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
-   Number of clocks:  4
-     Net clk0_c: 3 loads, 3 rising, 0 falling (Driver: K00/D01/oscout )
-     Net K02/aux_0_sqmuxa: 4 loads, 4 rising, 0 falling (Driver:
+   Number of clocks:  2
+     Net clk0_c: 11 loads, 11 rising, 0 falling (Driver: K00/D01/oscout )
+     Net K00/sclk: 13 loads, 13 rising, 0 falling (Driver: K00/D00/OSCInst0 )
 
                                     Page 1
 
 
 
 
-Design:  topkey00                                      Date:  09/19/19  11:16:43
+Design:  topkey00                                      Date:  09/24/19  08:56:28
 
 Design Summary (cont)
 ---------------------
-     K02/aux_0_sqmuxa )
-     Net K02/un1_aux88_i: 1 loads, 1 rising, 0 falling (Driver: K02/aux_RNO )
-     Net K00/sclk: 13 loads, 13 rising, 0 falling (Driver: K00/D00/OSCInst0 )
-   Number of Clock Enables:  0
+   Number of Clock Enables:  1
+     Net K02.un1_aux88_i: 7 loads, 0 LSLICEs
    Number of LSRs:  3
      Net outr0_c[1]: 1 loads, 1 LSLICEs
      Net K00/D01/sdiv8lto20_i_a2_RNIA3SQ8: 12 loads, 12 LSLICEs
      Net reset0_c: 2 loads, 2 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net outr0_c[2]: 14 loads
      Net K00/D01/sdiv8lto20_i_a2_RNIA3SQ8: 13 loads
-     Net inkey0_c[1]: 11 loads
-     Net outr0_c[1]: 11 loads
-     Net inkey0_c[2]: 9 loads
-     Net inkey0_c[3]: 9 loads
-     Net outr0_c[3]: 9 loads
+     Net outr0_c[1]: 12 loads
+     Net outr0_c[2]: 12 loads
+     Net inkey0_c[1]: 10 loads
+     Net outr0_c[3]: 10 loads
      Net cdiv00_c[0]: 8 loads
+     Net inkey0_c[2]: 8 loads
      Net K00/D01/sdiv[16]: 8 loads
      Net K00/D01/sdiv[17]: 8 loads
+     Net outr0_c[0]: 8 loads
 
 
 
@@ -122,9 +120,11 @@ IO (PIO) Attributes
 +---------------------+-----------+-----------+------------+
 | outtransist0[0]     | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| outcoder0[6]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[6]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-| outcoder0[5]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[5]        | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outcoder0[4]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 
                                     Page 2
@@ -132,19 +132,17 @@ IO (PIO) Attributes
 
 
 
-Design:  topkey00                                      Date:  09/19/19  11:16:43
+Design:  topkey00                                      Date:  09/24/19  08:56:28
 
 IO (PIO) Attributes (cont)
 --------------------------
-| outcoder0[4]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[3]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-| outcoder0[3]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[2]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-| outcoder0[2]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[1]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-| outcoder0[1]        | OUTPUT    | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-| outcoder0[0]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[0]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 | outr0[3]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -192,18 +190,18 @@ Signal K00/D01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
      clipped.
 Signal K00/D01/N_1 undriven or does not drive anything - clipped.
 Block K00/D00/GND was optimized away.
+Block K00/D01/GND was optimized away.
+
 
                                     Page 3
 
 
 
 
-Design:  topkey00                                      Date:  09/19/19  11:16:43
+Design:  topkey00                                      Date:  09/24/19  08:56:28
 
 Removed logic (cont)
 --------------------
-Block K00/D01/GND was optimized away.
-
      
 
 OSC Summary
@@ -226,9 +224,11 @@ Run Time and Memory Usage
 -------------------------
 
    Total CPU Time: 0 secs  
-   Total REAL Time: 0 secs  
-   Peak Memory Usage: 36 MB
+   Total REAL Time: 2 secs  
+   Peak Memory Usage: 58 MB
         
+
+
 
 
 

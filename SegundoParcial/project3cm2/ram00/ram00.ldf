@@ -13,6 +13,9 @@
             <Options/>
         </Source>
         <Source name="../../../PrimerParcial/project3CM2/div00VHDL/topdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topdiv00"/>
+        </Source>
+        <Source name="ram00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="ram00.lpf" type="Logic Preference" type_short="LPF">

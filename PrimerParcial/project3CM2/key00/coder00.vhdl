@@ -72,7 +72,7 @@ begin
 								outcoderc  <= "0011111"; -- 4
 							end if;	
 						when others => null;
-					end case;,
+					end case;
 	-------------------------------------------------------------------------------
 				when "0010" =>
 					case inkeyc is

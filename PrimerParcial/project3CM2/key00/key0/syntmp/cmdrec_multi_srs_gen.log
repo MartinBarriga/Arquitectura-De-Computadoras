@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topkey00  -multisrs  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\key00\key0\synwork\key00_key0_comp.srs  -osyn  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\key00\key0\synwork\key00_key0_mult.srs  -log  C:\Users\martin\Desktop\Arqui3cm2\PrimerParcial\project3CM2\key00\key0\synlog\key00_key0_multi_srs_gen.srr 
 relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe -link -top topkey00 -multisrs ..\synwork\key00_key0_comp.srs -osyn ..\synwork\key00_key0_mult.srs -log ..\synlog\key00_key0_multi_srs_gen.srr
 rc:0 success:1 runtime:1
-file:..\synwork\key00_key0_comp.srs|io:i|time:1568909789|size:9278|exec:0|csum:AD1A610BF0A24644B871BC9C50D2B402
-file:..\synwork\key00_key0_mult.srs|io:o|time:1568909791|size:2994|exec:0|csum:
-file:..\synlog\key00_key0_multi_srs_gen.srr|io:o|time:1568909791|size:1058|exec:0|csum:
+file:..\synwork\key00_key0_comp.srs|io:i|time:1569333374|size:9504|exec:0|csum:8E5E307F3D777224A2C488C5521F1E1E
+file:..\synwork\key00_key0_mult.srs|io:o|time:1569333376|size:3016|exec:0|csum:
+file:..\synlog\key00_key0_multi_srs_gen.srr|io:o|time:1569333376|size:1185|exec:0|csum:
 file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.11_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1554128552|size:8734720|exec:1|csum:0A206A5298321BBDD627E7975EAE3EC2

@@ -13,7 +13,7 @@ Hostname: DESKTOP-56RQHKQ
 
 Implementation : key0
 
-# Written on Thu Sep 19 11:16:33 2019
+# Written on Tue Sep 24 08:56:19 2019
 
 ##### DESIGN INFO #######################################################
 
@@ -37,9 +37,7 @@ Clock Relationships
 
 Starting                         Ending                           |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-System                           System                           |     No paths         |     10.000           |     No paths         |     No paths                         
 osc00|osc_int_inferred_clock     osc00|osc_int_inferred_clock     |     480.769          |     No paths         |     No paths         |     No paths                         
-div00|oscout_derived_clock       System                           |     No paths         |     No paths         |     480.769          |     No paths                         
 div00|oscout_derived_clock       div00|oscout_derived_clock       |     480.769          |     No paths         |     No paths         |     No paths                         
 =============================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.

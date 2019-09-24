@@ -13,7 +13,7 @@ Hostname: DESKTOP-56RQHKQ
 
 Implementation : key0
 
-# Written on Thu Sep 19 11:16:32 2019
+# Written on Tue Sep 24 08:56:17 2019
 
 ##### FILES SYNTAX CHECKED ##############################################
 Constraint File(s):      (none)
@@ -33,21 +33,17 @@ Clock Summary
           Start                            Requested     Requested     Clock                                           Clock                   Clock
 Level     Clock                            Frequency     Period        Type                                            Group                   Load 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-0 -       System                           100.0 MHz     10.000        system                                          system_clkgroup         8    
-                                                                                                                                                    
 0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     23   
-1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     5    
+1 .         div00|oscout_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     13   
 ====================================================================================================================================================
 
 
 Clock Load Summary
 ******************
 
-                                 Clock     Source                         Clock Pin            Non-clock Pin     Non-clock Pin
-Clock                            Load      Pin                            Seq Example          Seq Example       Comb Example 
-------------------------------------------------------------------------------------------------------------------------------
-System                           8         -                              K02.aux.C            -                 -            
-                                                                                                                              
-osc00|osc_int_inferred_clock     23        K00.D00.OSCInst0.OSC(OSCH)     K00.D01.oscout.C     -                 -            
-div00|oscout_derived_clock       5         K00.D01.oscout.Q[0](dffe)      K01.outr[3:0].C      -                 -            
-==============================================================================================================================
+                                 Clock     Source                         Clock Pin                Non-clock Pin     Non-clock Pin
+Clock                            Load      Pin                            Seq Example              Seq Example       Comb Example 
+----------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     23        K00.D00.OSCInst0.OSC(OSCH)     K00.D01.oscout.C         -                 -            
+div00|oscout_derived_clock       13        K00.D01.oscout.Q[0](dffe)      K02.outcoderc[6:0].C     -                 -            
+==================================================================================================================================
