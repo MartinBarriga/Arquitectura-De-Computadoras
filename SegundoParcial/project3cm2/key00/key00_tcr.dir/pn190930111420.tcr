@@ -1,0 +1,11 @@
+#Start recording tcl command: 9/30/2019 11:03:26
+#Project Location: C:/Users/martin/Desktop/Arqui3cm2/SegundoParcial/project3cm2/key00; Project name: key00
+C:/Users/martin/Desktop/Arquitectura-de-Computadoras-master/Arquitectura-de-Computadoras-master/II/Practicas/key02
+key02
+#Start recording tcl command: 9/30/2019 11:14:20
+#Project Location: C:/Users/martin/Desktop/Arquitectura-de-Computadoras-master/Arquitectura-de-Computadoras-master/II/Practicas/key02; Project name: key02
+prj_project open "C:/Users/martin/Desktop/Arqui3cm2/SegundoParcial/project3cm2/key00/key00.ldf"
+prj_project save
+prj_project close
+prj_project open "C:/Users/martin/Desktop/Arquitectura-de-Computadoras-master/Arquitectura-de-Computadoras-master/II/Practicas/key02/key02.ldf"
+#Stop recording: 9/30/2019 11:14:20

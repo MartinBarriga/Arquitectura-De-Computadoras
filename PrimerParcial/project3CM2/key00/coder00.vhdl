@@ -69,7 +69,7 @@ begin
 						when "1000" =>
 							if(aux = '0') then
 								aux:='1';
-								outcoderc  <= "0011111"; -- 4
+								outcoderc  <= "0011111"; -- A
 							end if;	
 						when others => null;
 					end case;
@@ -96,7 +96,7 @@ begin
 						when "1000" =>
 							if(aux = '0') then
 								aux:='1';
-								outcoderc  <= "0110001"; -- C
+								outcoderc  <= "1001110"; -- C
 							end if;	
 						when others => null;
 					end case;	
@@ -108,12 +108,12 @@ begin
 						when "0001" =>
 							if(aux = '0') then
 								aux:='1';
-								outcoderc <= "1111110"; -- 0
+								outcoderc <= "1100011" ; -- *
 							end if;
 						when "0010" =>
 							if(aux = '0') then
 								aux:='1';
-								outcoderc <= "1100011"; -- *
+								outcoderc <= "1111110"; -- 0
 							end if;	
 						when "0100" =>
 							if(aux = '0') then

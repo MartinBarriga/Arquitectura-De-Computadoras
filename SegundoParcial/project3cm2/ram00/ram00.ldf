@@ -2,7 +2,7 @@
 <BaliProject version="3.2" title="ram00" device="LCMXO2-7000HE-5TG144C" default_implementation="ram0">
     <Options/>
     <Implementation title="ram0" dir="ram0" description="ram0" synthesis="synplify" default_strategy="Strategy1">
-        <Options def_top="topdiv00"/>
+        <Options def_top="coder00"/>
         <Source name="../../../PrimerParcial/project3CM2/div00VHDL/div00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
@@ -16,6 +16,15 @@
             <Options top_module="topdiv00"/>
         </Source>
         <Source name="ram00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="ram00"/>
+        </Source>
+        <Source name="contring00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="contring00"/>
+        </Source>
+        <Source name="coder00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="coder00"/>
+        </Source>
+        <Source name="contRead00.vhdl" type="VHDL" type_short="VHDL">
             <Options/>
         </Source>
         <Source name="ram00.lpf" type="Logic Preference" type_short="LPF">

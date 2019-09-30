@@ -6,7 +6,7 @@ Performance Grade:      5
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Tue Sep 24 08:56:39 2019
+Tue Sep 24 09:38:53 2019
 
 Pinout by Port Name:
 +-----------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
@@ -33,10 +33,10 @@ Pinout by Port Name:
 | outr0[1]        | 98/1     | LVCMOS25_OUT | PR7A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outr0[2]        | 95/1     | LVCMOS25_OUT | PR9B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outr0[3]        | 96/1     | LVCMOS25_OUT | PR9A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outtransist0[0] | 105/1    | LVCMOS25_OUT | PR3A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outtransist0[1] | 104/1    | LVCMOS25_OUT | PR3B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outtransist0[2] | 100/1    | LVCMOS25_OUT | PR5A  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
-| outtransist0[3] | 99/1     | LVCMOS25_OUT | PR5B  |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outtransist0[0] | 76/1     | LVCMOS25_OUT | PR23A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outtransist0[1] | 75/1     | LVCMOS25_OUT | PR23B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outtransist0[2] | 74/1     | LVCMOS25_OUT | PR24A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outtransist0[3] | 73/1     | LVCMOS25_OUT | PR24B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | reset0          | 4/5      | LVCMOS25_IN  | PL4B  |           |           | PULL:DOWN CLAMP:ON HYSTERESIS:SMALL  |
 +-----------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
@@ -118,10 +118,10 @@ Pinout by Pin Number:
 | 69/2     |     unused, PULL:DOWN |            |              | PB37B |                |           |           |
 | 70/2     |     unused, PULL:DOWN |            |              | PB38A | SN             |           |           |
 | 71/2     |     unused, PULL:DOWN |            |              | PB38B | SI/SISPI       |           |           |
-| 73/1     |     unused, PULL:DOWN |            |              | PR24B | DQ1            |           |           |
-| 74/1     |     unused, PULL:DOWN |            |              | PR24A | DQ1            |           |           |
-| 75/1     |     unused, PULL:DOWN |            |              | PR23B | DQ1            |           |           |
-| 76/1     |     unused, PULL:DOWN |            |              | PR23A | DQ1            |           |           |
+| 73/1     | outtransist0[3]       | LOCATED    | LVCMOS25_OUT | PR24B | DQ1            |           |           |
+| 74/1     | outtransist0[2]       | LOCATED    | LVCMOS25_OUT | PR24A | DQ1            |           |           |
+| 75/1     | outtransist0[1]       | LOCATED    | LVCMOS25_OUT | PR23B | DQ1            |           |           |
+| 76/1     | outtransist0[0]       | LOCATED    | LVCMOS25_OUT | PR23A | DQ1            |           |           |
 | 77/1     | outcoder0[6]          | LOCATED    | LVCMOS25_OUT | PR21B | DQ1            |           |           |
 | 78/1     | outcoder0[5]          | LOCATED    | LVCMOS25_OUT | PR21A | DQ1            |           |           |
 | 81/1     | outcoder0[4]          | LOCATED    | LVCMOS25_OUT | PR18B | DQ1            |           |           |
@@ -140,11 +140,11 @@ Pinout by Pin Number:
 | 96/1     | outr0[3]              | LOCATED    | LVCMOS25_OUT | PR9A  | DQ0            |           |           |
 | 97/1     | outr0[0]              | LOCATED    | LVCMOS25_OUT | PR7B  | DQ0            |           |           |
 | 98/1     | outr0[1]              | LOCATED    | LVCMOS25_OUT | PR7A  | DQ0            |           |           |
-| 99/1     | outtransist0[3]       | LOCATED    | LVCMOS25_OUT | PR5B  | DQ0            |           |           |
-| 100/1    | outtransist0[2]       | LOCATED    | LVCMOS25_OUT | PR5A  | DQ0            |           |           |
+| 99/1     |     unused, PULL:DOWN |            |              | PR5B  | DQ0            |           |           |
+| 100/1    |     unused, PULL:DOWN |            |              | PR5A  | DQ0            |           |           |
 | 103/1    |     unused, PULL:DOWN |            |              | PR4C  |                |           |           |
-| 104/1    | outtransist0[1]       | LOCATED    | LVCMOS25_OUT | PR3B  | R_GPLLC_IN/DQ0 |           |           |
-| 105/1    | outtransist0[0]       | LOCATED    | LVCMOS25_OUT | PR3A  | R_GPLLT_IN/DQ0 |           |           |
+| 104/1    |     unused, PULL:DOWN |            |              | PR3B  | R_GPLLC_IN/DQ0 |           |           |
+| 105/1    |     unused, PULL:DOWN |            |              | PR3A  | R_GPLLT_IN/DQ0 |           |           |
 | 106/1    |     unused, PULL:DOWN |            |              | PR2B  | R_GPLLC_FB/DQ0 |           |           |
 | 107/1    |     unused, PULL:DOWN |            |              | PR2A  | R_GPLLT_FB/DQ0 |           |           |
 | 109/0    |     unused, PULL:DOWN |            |              | PT36D | DONE           |           |           |
@@ -435,10 +435,10 @@ LOCATE  COMP  "outr0[0]"  SITE  "97";
 LOCATE  COMP  "outr0[1]"  SITE  "98";
 LOCATE  COMP  "outr0[2]"  SITE  "95";
 LOCATE  COMP  "outr0[3]"  SITE  "96";
-LOCATE  COMP  "outtransist0[0]"  SITE  "105";
-LOCATE  COMP  "outtransist0[1]"  SITE  "104";
-LOCATE  COMP  "outtransist0[2]"  SITE  "100";
-LOCATE  COMP  "outtransist0[3]"  SITE  "99";
+LOCATE  COMP  "outtransist0[0]"  SITE  "76";
+LOCATE  COMP  "outtransist0[1]"  SITE  "75";
+LOCATE  COMP  "outtransist0[2]"  SITE  "74";
+LOCATE  COMP  "outtransist0[3]"  SITE  "73";
 LOCATE  COMP  "reset0"  SITE  "4";
 
 
@@ -451,5 +451,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Sep 24 08:56:39 2019
+Tue Sep 24 09:38:53 2019
 
